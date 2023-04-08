@@ -26,7 +26,7 @@
         "button"
       ],
       "custom_css": [
-        ".banner__heading {color: #fff; font-size: 30px;}"
+        ".banner__heading {color: #fff; font-size: 20px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Banner_website_new_main_cat_landing_page3_2000x_b5edd210-8023-4e5f-8d72-8e739cad99ee.webp",
@@ -58,22 +58,25 @@
         "template--18599018234161__ad7a664c-4ac9-47b5-9c7b-2ac78e53381c-16809705104376c9ad-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/solidarity.png",
+            "title": "",
+            "text": "<p>Mit Herz & Hand im Münchener Umland gefertigt. Jedes Pad wird in einer Spezialform handgegossen.<\/p>"
           }
         },
         "template--18599018234161__ad7a664c-4ac9-47b5-9c7b-2ac78e53381c-16809705104376c9ad-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/healthy-living.png",
+            "title": "",
+            "text": "<p>100% vegan, tierversuchfrei und PETA zertifiziert<\/p>"
           }
         },
         "619df344-4c15-4a8d-99c7-b22ef3bab58e": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/cartified_2a2d3e6b-82af-4805-aa55-11248b94b1bb.png",
+            "title": "",
+            "text": "<p>Glatte Haut in 1 Stunde und nachhaltige Faltenreduzierung - schnell & bequem mit unseren Reusable Pads.<\/p>"
           }
         }
       },
@@ -83,13 +86,14 @@
         "619df344-4c15-4a8d-99c7-b22ef3bab58e"
       ],
       "custom_css": [
-        ".multicolumn-card {background-color: rgba(0, 0, 0, 0);}"
+        ".multicolumn-card {background-color: rgba(0, 0, 0, 0);}",
+        "img {}"
       ],
       "settings": {
         "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
+        "image_width": "third",
+        "image_ratio": "square",
+        "column_alignment": "center",
         "background_style": "secondary",
         "button_label": "",
         "button_link": "",
