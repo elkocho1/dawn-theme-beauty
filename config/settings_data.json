@@ -1,3 +1,68 @@
 {
-  "current": {}
+  "current": {
+    "colors_accent_1": "#ff9966",
+    "colors_background_2": "rgba(0,0,0,0)",
+    "type_header_font": "poppins_n4",
+    "type_body_font": "poppins_n4",
+    "favicon": "shopify:\/\/shop_images\/favicon.jpg",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Alle Bestellungen, die zweischen dem 07.04 und dem 10.04 eingehen, werden ab dem 11.04 versendet. Wir wünschen dir frohe ostern.",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "custom_css": [],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "custom_css": [
+          ".header {font-weight: 600; color: #0000;}"
+        ],
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/logo.jpg",
+          "logo_width": 170,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "Sign up to our emails",
+          "show_social": false,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      }
+    },
+    "content_for_index": []
+  }
 }

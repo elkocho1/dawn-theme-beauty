@@ -6,13 +6,13 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand"
+            "heading": "EFFEKTIVE FALTENREDUZIERUNG"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "ZU DEN PATCHES & TAPES",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -25,10 +25,14 @@
         "heading",
         "button"
       ],
+      "custom_css": [
+        ".banner__heading {color: #fff; font-size: 30px;}"
+      ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Banner_website_new_main_cat_landing_page3_2000x_b5edd210-8023-4e5f-8d72-8e739cad99ee.webp",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
+        "stack_images_on_mobile": false,
         "adapt_height_first_image": false
       }
     },
