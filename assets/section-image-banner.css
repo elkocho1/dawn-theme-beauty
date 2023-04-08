@@ -5,6 +5,8 @@
   min-height: initial;
 }
 
+
+
 @media screen and (max-width: 749px) {
   .banner:not(.banner--stacked) {
     flex-direction: row;
@@ -14,7 +16,7 @@
 
 @media screen and (min-width: 750px) {
   .banner {
-    min-height: 72rem;
+    min-height: 56rem;
     flex-direction: row;
   }
 }

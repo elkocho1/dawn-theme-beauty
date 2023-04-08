@@ -72,7 +72,7 @@
 }
 
 .multicolumn.background-secondary {
-  padding: 4rem 0 5rem;
+  padding: 1rem 0 1rem;
   background-color: #fff2ee;
 }
 
@@ -97,7 +97,8 @@
 
 .multicolumn-list__item.center .media--adapt,
 .multicolumn-list__item .media--adapt img {
-  width: auto;
+max-width: 80%;
+height: auto;
 }
 
 .multicolumn-list__item.center .media--adapt img {
