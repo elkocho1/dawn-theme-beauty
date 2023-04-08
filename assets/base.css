@@ -754,6 +754,8 @@ summary::-webkit-details-marker {
   text-transform: uppercase;
  margin: 4rem 0 3rem;
  font-weight: 600;
+ margin-top: 5em;
+ padding-bottom: 2em;
 }
 
 .title--primary {

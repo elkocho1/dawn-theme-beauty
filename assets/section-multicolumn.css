@@ -73,6 +73,7 @@
 
 .multicolumn.background-secondary {
   padding: 4rem 0 5rem;
+  background-color: #fff2ee;
 }
 
 .multicolumn:not(.background-secondary) {
@@ -222,3 +223,4 @@
     padding-right: 1.5rem;
   }
 }
+
